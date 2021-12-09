@@ -1,4 +1,4 @@
-// OBJECT
+// OBJECT INSTANTIATION
 
 const date = new Date();             
 const hour = date.getHours();
@@ -57,5 +57,3 @@ case 3:
 default:
     console.log("Not Found.");
 }
-
-

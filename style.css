@@ -54,29 +54,15 @@ h2 {
     color: purple;
 }
 
-h4 {
-    display: block;
-    color: black;
-}
-
 .figcapt {
     margin-top: -20px;
-}
-
-.social-media {
-    text-decoration: none;
 }
 
 footer {
     text-align: center;   
 }
 
-.accordion-panel {
-    display: none;
-}
-
 #js-greeting {
     color: purple;
     text-align: center;
 }
-
