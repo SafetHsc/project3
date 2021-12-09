@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--
+        Name: Safet Hasić
+        ID: 190302040
+        Course: 412.1 - Web Application Development
+        Assignment: Project 3 - CV (HTML+CSS+JS)
+        Due Date: 07.12.2021
+        Supervisor: Prof. Ali Almisreb
+        Purpose: Create CV website using HTML, CSS and JavaScript
+    -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Bootstrap import-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+                rel="stylesheet" 
+                integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+                crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/64/711/711284.png">
+
+        <link href="style.css" type="text/css" rel="stylesheet">
+
+        <title>My Resume</title>
+
+    </head>
+
+<body>
+    <div id="top">
+        <img src="banner.jpg" alt="banner" title="Banner" width="950" height="260" style="margin: auto;">
+    </div>
+
+<div id="center-page">
+    <h1>My Resume / CV</h1>
+   
+    <header>
+        <nav class="d-grid gap-2 d-md-block">
+            <a class="btn btn-primary btn-lg" href="#bio">About Me</a>
+            <a class="btn btn-primary btn-lg" href="#education">Education</a>
+            <a class="btn btn-primary btn-lg" href="#skills">Skills</a>
+            <a class="btn btn-primary btn-lg" href="#address">Address</a>
+            <a class="btn btn-primary btn-lg" href="#contact">Contact Me</a>
+            <a class="btn btn-primary btn-lg" href="#js-part">JavaScript Part</a>
+        </nav>
+    </header>
+
+    <div id="bio">
+        <hr>
+        <h2>About Me</h2>
+        <blockquote>
+            <!-- Placeholder for avatar/image -->
+            <img id="avatar" src="placeholder.png" width="100" height="100" style="border-radius: 50%;" alt="Avatar " title="Person">
+            <br> 
+            <p id="name" style="margin-top: 10px; margin-left: 10px;"> <b><i>Safet Hasić</i></b> </p>
+            <p class="bioclass">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum mi a pellentesque luctus. Mauris ultricies elit ac pharetra interdum. Vivamus facilisis et massa eget porttitor.
+                Sed faucibus vel lacus nec sodales. In venenatis neque vel varius congue. Curabitur scelerisque urna at diam interdum efficitur. Nulla eu elementum turpis, in fermentum metus.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet lorem nisl. Donec commodo massa vitae nisl fermentum, id imperdiet lectus efficitur.
+                Quisque scelerisque lectus dui, a tempus diam auctor quis. Aenean et justo vitae est porttitor vulputate. Duis eget tempus libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </blockquote>
+    </div>
+
+    <hr>
+
+    <div id="education">
+        <h2>Education</h2>
+        <ol>
+            <li><strong style="color: green;">Primary School:</strong> OŠ Musa Ćazim Ćatić, Gradačac 
+                <i>
+                    <acronym title="OŠ MĆĆ">
+                        <b>-</b> <a href="https://oszelinjadonja.edu.ba/" target="_blank">MĆĆ</a>
+                    </acronym>
+                </i>
+            </li>
+
+            <li><strong style="color: green;">High School:</strong> Behram-begova medresa, Tuzla 
+                <i>
+                    <acronym title="BBM Tuzla">
+                        <b>-</b> <a href="https://bbm.edu.ba/" target="_blank">BBM</a>
+                    </acronym>
+                </i>
+            </li>
+
+            <li><strong style="color: green;">College/University:</strong> International University of Sarajevo - FENS/SE
+                <i>
+                    <acronym title="IUS">
+                        <b>-</b> <a href="https://ius.edu.ba/" target="_blank">IUS</a>
+                    </acronym>
+                </i>
+            </li>
+            
+        </ol>
+    </div>
+    <hr>
+
+    <div id="skills">
+        <h2>Skills</h2>
+        <ol>
+            <li><p style="font-size: 20px; color: green;"><b>Coding Skills</b></p>
+                    <ul>
+                        <li type="square"> <a href ="https://www.w3schools.com/CPP/" target="_blank">C++</a> </li>
+                        <progress value="60" max="100"></progress>
+                        <li type="square"> <a href ="https://www.w3schools.com/SQL/" target="_blank">SQL</a> </li>
+                        <progress value="40" max="100"></progress>
+                        <li type="square"> <a href ="https://www.w3schools.com/Java/" target="_blank">Java</a> </li>
+                        <progress value="55" max="100"></progress>
+                        <li type="square"> <a href ="https://www.w3schools.com/html/" target="_blank">HTML + CSS</a> </li>
+                        <progress value="60" max="100"></progress>
+                        <li type="square"> <a href ="https://www.w3schools.com/js/" target="_blank">JavaScript</a> </li>
+                        <progress value="8" max="100"></progress>
+                    </ul>
+            </li>
+            &nbsp;
+
+            <li><p style="font-size: 20px; color: green;"><b>Languages Spoken</b> </p>
+                <ul>
+                    <li type="square">
+                         <img src="ba.png" alt="flag - Bosnia and Herzegovina " title="flag Bosnia and Herzegovina" width="21" height="20"> Bosnian </li>
+                    <li type="square">
+                        <img src="es.png" alt="flag - Spain " title="flag Spain " width="21" height="20"> Spanish </li>
+                    <li type="square">
+                    <img src="tr.png" alt="flag - Turkey " title="flag Turkey " width="21" height="20"> Turkish </li>
+                    <li type="square">
+                        <img src="de.png" alt="flag - Germany " title="flag Germany " width="21" height="20"> German </li>
+                </ul>
+            </li>
+            &nbsp;
+
+            <li> <p style="font-size: 20px; color: green;"> <b>Tutoring</b> </p>
+                <ul>
+                    <li type="square" <i class="bi bi-calculator-fill"></i> Mathematics
+                    <li type="square" <i class="bi bi-translate"></i> Foreign Language - <i>English / C1</i> </li>
+                    <li type="square" <i class="bi bi-code-square"></i> Programming</li>
+                </ul>
+            </li>
+            &nbsp;
+
+            <li> <p style="font-size: 20px; color: green;"> <b>Sport/Hobbies</b> </p>
+                <ul>
+                    <li type="square">Football</li>
+                    <li type="square">Volleyball</li>
+                    <li type="square">Snooker/Pool</li>
+                    <li type="square">Sharpshooting/Archery</li>
+                    <li type="square">FPS Video Games</li>
+                </ul>
+            </li>
+            &nbsp;
+
+        </ol>
+    </div>
+    <hr>
+
+    <div id="address">
+
+        <h2>Address</h2>
+        <p id="adrs" style="margin-bottom: -1px; color: green;"><strong>Hrasnička cesta 15, 71210 Sarajevo / Bosnia and Herzegovina</strong></p>
+        <figure>    
+            <address>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2878.646939959026!2d18.306849015912878!3d43.82168224953691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758ca0bbb37da7b%3A0xa14d6099047dafb9!2sInternational%20University%20of%20Sarajevo!5e0!3m2!1sen!2sba!4v1636129757116!5m2!1sen!2sba" 
+                width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </address>
+            <div class="figcapt">
+                <em>
+                    <a href="https://www.google.com/maps/place/International+University+of+Sarajevo/@43.8220775,18.308806,17z/data=!4m13!1m7!3m6!1s0x4758ca11880f2fdf:0x7ad666754559a531!2sHrasni%C4%8Dka+cesta+15,+Ilid%C5%BEa!3b1!8m2!3d43.8224955!4d18.3095677!3m4!1s0x4758ca0bbb37da7b:0xa14d6099047dafb9!8m2!3d43.8216784!4d18.3090377" 
+                        title="Click to Open Large Map" target="_blank"> IUS Location
+                    </a>
+                </em>
+            </div>
+        </figure>
+        
+    </div>
+    <hr>
+
+    <div id="contact">
+        <h2>Contact Me</h2>
+        
+        <i class="bi bi-envelope-fill"></i>
+        <b>E-mail:</b> <a href="mailto:190302040@student.ius.edu.ba">190302040@student.ius.edu.ba</a>
+        <br>
+        <i class="bi bi-telephone-fill"></i>
+        <b>Phone: </b> 00 387 61-234-567
+        <br><br>
+        
+        <!-- Social Media-->
+        <p>     
+            <a href="https://www.facebook.com/safet.hassiicc" target="_blank"> 
+                <img src="fb.png" width="25" height="25" alt="Facebook-Logo &nbsp;"> Facebook</a>
+            <br>
+            <a href="https://www.instagram.com/_hasiiicc/" target="_blank">
+                <img src="insta.png" width="25" height="25" alt="Instagram-Logo &nbsp;"> Instagram</a>
+        </p>
+
+    </div>
+
+    <hr>
+
+    <div id="js-part">
+        <h2>JavaScript Part</h2>
+
+        <p style="text-align: center;">Greeting:</p>
+        
+    <span id="js-greeting">
+        <script>greeting</script>
+    </span>
+
+    <button type="button" id="anim" style="color: red;">Click for simple animation</button>
+    
+    <p id="btn-clicked" style="color:red;"></p>
+
+    <p style="display: inline-block; border-bottom: 1px solid black;">Reading array from .js file:</p>
+    <span id="array-text" style="background-color: aquamarine; display: inline-block;">
+        <script>array</script>    
+    </span>
+    
+    
+    </div>
+
+    <hr>
+
+    <footer>
+        <b> &copy; </b>
+        <i>Copyright, 2021 - All Rights Reserved.</i>
+        <br> <br>
+    
+        <!-- Jump to top button-->
+        <i class="bi bi-arrow-up-square-fill"></i>
+        <a href="#top">Back To Top</a>
+    </footer>
+
+</div>
+
+<!--jQuery import-->
+<script
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
